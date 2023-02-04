@@ -1,0 +1,78 @@
+.pageContainer {
+    display: flex;
+    justify-content: center;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    padding: 10px 0px;
+}
+
+.phoneContainer {
+    background-color: #f5f8fb;
+    height: 100vh;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+input {
+    width: 50vh;
+    height: 10vh;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: #2965e6 2px solid    ;
+}
+
+input:focus {
+    outline: #2965e6;
+}
+
+.formContainer {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    height: 8vh;
+    padding: 0 30px;
+    font-size: 30px;
+    background-color: #2965e6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.native-C {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.foreign-C {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.foreign-message {
+    background-color: gray;
+    color: white;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.native-message {
+    background-color: #2965e6;
+    color: white;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.right-chat {
+    text-align: right;
+}
+
+.left-chat {
+    text-align: left;
+}
+
+
